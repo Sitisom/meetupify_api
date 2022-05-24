@@ -1,0 +1,8 @@
+django==4.0.3
+djangorestframework==3.13.1
+djangorestframework-simplejwt==5.1.0
+django-cors-headers==3.11.0
+psycopg2
+psycopg2-binary
+prospector[with_pyroma]
+djangorestframework-camel-case
