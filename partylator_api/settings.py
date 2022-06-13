@@ -35,7 +35,8 @@ CORS_ALLOWED_ORIGINS = [
 
 LOCAL_APPS = [
     'core',
-    'auth'
+    'auth',
+    'party',
 ]
 
 INSTALLED_APPS = [
@@ -88,7 +89,7 @@ WSGI_APPLICATION = 'partylator_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'partylator',
+        'NAME': 'meetupify',
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost',

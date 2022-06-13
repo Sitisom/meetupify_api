@@ -6,3 +6,4 @@ psycopg2
 psycopg2-binary
 prospector[with_pyroma]
 djangorestframework-camel-case
+django-filter
